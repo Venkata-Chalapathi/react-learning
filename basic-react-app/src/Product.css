@@ -1,0 +1,10 @@
+.Product {
+    border: 1px solid black;
+    border-radius: 14px;
+    max-width: 800px;
+    width: 100%;          /* important */
+    margin: 20px auto;    /* add vertical spacing */
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+}
