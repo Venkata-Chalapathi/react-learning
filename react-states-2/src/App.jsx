@@ -6,13 +6,16 @@ import './App.css'
 import LudoBoard from './LudoBoard'
 import TodoList from './TodoList'
 import LotteryTicket from './Lottery'
+// import TicketNum from './TicketNum'
+import Ticket from './Ticket'
 function App() {
 
   return (  
     <>
       {/* <LudoBoard /> */}
       {/* < TodoList /> */}
-      <LotteryTicket />
+      <br />
+      <Ticket ticket = {[0, 1, 2]} />
     </>
   )
 }
